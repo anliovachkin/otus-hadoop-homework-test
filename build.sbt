@@ -1,4 +1,4 @@
-name := "otus-hadoop-homework"
+name := "otus-hadoop-homework-test"
 
 version := "0.1"
 
@@ -15,7 +15,6 @@ resolvers ++= Seq(
   "Typesafe Simple Repository" at "https://repo.typesafe.com/typesafe/simple/maven-releases",
   "MavenRepository" at "https://mvnrepository.com"
 )
-
 
 libraryDependencies ++= Seq(
   "org.apache.spark" %% "spark-sql" % sparkVersion,
